@@ -1,12 +1,16 @@
 map_type: costmap
 
-obstacle_range: 0.0
-raytrace_range: 0.0
+obstacle_range: 5.0 # default 0.0
+raytrace_range: 8.0 # default 0.0
 
-transform_tolerance: 0.0
+transform_tolerance: 0.2 # default 0.0
 
-robot_radius: 0.0 
-inflation_radius: 0.0
+initial_pose_x: 0.0 # new
+initial_pose_y: 0.0 # new
+initial_pose_a: -0.785 # new
+
+robot_radius: 0.23 # default 0.0
+inflation_radius: 0.23 # default 0.0
 
 observation_sources: laser_scan_sensor
 

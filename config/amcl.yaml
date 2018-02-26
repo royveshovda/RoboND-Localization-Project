@@ -1,0 +1,17 @@
+transform_tolerance: 0.2
+min_particles: 10
+max_particles: 500
+use_map_topic: true
+
+laser_model_type: "likelihood_field"
+
+odom_frame_id: odom
+odom_model_type: diff-corrected
+base_frame_id: robot_footprint
+global_frame_id: map
+
+odom_alpha1: 0.003
+odom_alpha2: 0.003
+odom_alpha3: 0.003
+odom_alpha4: 0.003
+odom_alpha5: 0.003
